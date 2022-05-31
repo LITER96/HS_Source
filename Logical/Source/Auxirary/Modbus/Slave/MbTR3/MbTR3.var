@@ -1,0 +1,15 @@
+(*
+FBK*)
+VAR
+	FB_MbSlWordPut : mbSlWordPut;
+	FB_MbSlWordPut1 : mbSlWordPut;
+	MbSlaveState : MbSlaveState_enum;
+END_VAR
+(*
+Variable*)
+VAR
+	strMbStation : STRING[30];
+	nStartAddress : ARRAY[1..3] OF UINT;
+	DataGroup12 : ARRAY[1..128] OF UINT;
+	DataGroup13 : ARRAY[1..128] OF UINT;
+END_VAR

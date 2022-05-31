@@ -1,0 +1,22 @@
+(*Insert your comment here.*)
+VAR
+	FB_AlarmCore : MpAlarmXCore; (*Function Block Alarm Core*)
+	FB_AlarmListUI : MpAlarmXListUI; (*Function Block Alarm List UI*)
+	FB_AlarmHistory : MpAlarmXHistory; (*Function Block Alarm History*)
+	FB_AlarmHistoryUI : MpAlarmXHistoryUI; (*Function Block Alarm History UI*)
+END_VAR
+(*Parameter*)
+VAR
+	MpAlarmXListUISetupType_0 : MpAlarmXListUISetupType;
+	ParamHisUIConnect : MpAlarmXHistoryUIConnectType; (*Parameter HIstory UI Connect*)
+	ParamListUIConnect : MpAlarmXListUIConnectType; (*Parameter List UI Connect*)
+END_VAR
+(*Variable*)
+VAR
+	bAlarmSet : BOOL; (*Alarm Active*)
+	bAcknowledgeAll : BOOL;
+	strFiltering_Rising : STRING[300];
+	strFiltering_System : STRING[300];
+	bInit : BOOL;
+	cnt : INT;
+END_VAR

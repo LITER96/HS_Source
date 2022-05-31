@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="TempHigh" />
+        <Property ID="Message" Value="High" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="PLC Battery Alarm" />
+        <Property ID="Message" Value="Battery voltage too low or battery missing" />
+        <Property ID="Severity" Value="5" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="PLC Supply voltage Alarm" />
+        <Property ID="Message" Value="Supply voltage outside valid range" />
+        <Property ID="Severity" Value="5" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

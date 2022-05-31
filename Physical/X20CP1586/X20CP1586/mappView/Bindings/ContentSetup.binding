@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentSetup_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput1" attribute="value" />
+		</Binding>
+
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.bEnable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="Label34" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupListBox.DateProvider" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="ListBox1" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupDropBox.DateProvider" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="DropDownBox1" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupListBox.SelectIndex" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="ListBox1" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupDropBox1.SelectIndex" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="DropDownBox2" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupDropBox.SelectIndex" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="DropDownBox1" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::HmiSetup:strFileName" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="TextOutput1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.bEnable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="Button2" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:SetupDropBox1.DateProvider" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="DropDownBox2" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_1st[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox19" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_1st[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox10" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_1st[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox15" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_2nd[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox13" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_2nd[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox21" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_2nd[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox17" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Rising[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox24" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Rising[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox23" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Rising[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox11" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Temperature[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox22" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Temperature[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox18" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_Temperature[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox14" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_High[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox20" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_High[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox16" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.bActive_High[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="CheckBox12" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput9" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput11" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput5" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput7" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput13" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput18" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput20" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput16" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput23" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput25" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st_Reset[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st_Reset[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput8" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_1st_Reset[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput10" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd_Reset[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput6" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd_Reset[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput4" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_2nd_Reset[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput14" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput17" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput21" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_High[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput19" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature_Reset[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput15" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature_Reset[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput22" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rTemperature_Reset[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput24" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.strType" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="TextOutput4" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.strType" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="TextOutput3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.strType" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="TextOutput2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rChange[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput9" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rChange[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput6" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rChange[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rTemp[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput8" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rTemp[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput5" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rTemp[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rPress[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput7" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rPress[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput4" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.rPress[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericOutput1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_Change_Period[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput31" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_Change_Period[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput29" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuSetup.Input.SetValue.rPressure_Change_Period[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentSetup" widgetRefId="NumericInput27" attribute="value" />
+		</Binding>		
+	</Bindings>
+</BindingsSet>

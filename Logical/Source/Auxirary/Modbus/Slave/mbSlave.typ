@@ -1,0 +1,11 @@
+
+TYPE
+	MbSlaveState_enum : 
+		(
+		ST_SLAVE_WAIT,
+		ST_SLAVE_OPEN,
+		ST_SLAVE_RUN,
+		ST_SLAVE_RUNNING,
+		ST_SLAVE_ERROR
+		);
+END_TYPE

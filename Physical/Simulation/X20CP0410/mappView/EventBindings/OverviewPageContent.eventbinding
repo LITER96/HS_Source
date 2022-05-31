@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentOverview_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="GDM1_1">
+      <Source xsi:type="opcUa.Event" refId="::HmiOvervie:gVisuOverView.Output.GMD[1].bLED[1]" event="ValueChanged" />
+      <EventHandler condition="newValue=2">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_1">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor2.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=1">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_1">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor1.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_1">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor0.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="GDM1_2">
+      <Source xsi:type="opcUa.Event" refId="::HmiOvervie:gVisuOverView.Output.GMD[1].bLED[2]" event="ValueChanged" />
+      <EventHandler condition="newValue=2">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_2">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor2.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=1">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_2">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor1.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_2">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor0.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="GDM1_3">
+      <Source xsi:type="opcUa.Event" refId="::HmiOvervie:gVisuOverView.Output.GMD[1].bLED[3]" event="ValueChanged" />
+      <EventHandler condition="newValue=2">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor2.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=1">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor1.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor0.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="GDM2_1">
+      <Source xsi:type="opcUa.Event" refId="::HmiOvervie:gVisuOverView.Output.GMD[1].bLED[3]" event="ValueChanged" />
+      <EventHandler condition="newValue=2">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor2.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=1">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor1.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentOverview" widgetRefId="GDM1_3">
+            <Method xsi:type="widgets.brease.Image.Action.SetImage" image="Media/sensor0.png" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

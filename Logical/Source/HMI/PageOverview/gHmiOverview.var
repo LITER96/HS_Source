@@ -1,0 +1,16 @@
+(*Insert your comment here.*)
+VAR
+	gVisuOverView : gVisuOverView_typ;
+END_VAR
+(*
+DropDown Box*)
+VAR
+	PressUnitBox : DropDown_typ;
+	TempUnitBox : DropDown_typ;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	DetailDropBox : DropDown_typ;
+	DetailDropBox1 : DropDown_typ;
+	DetailListBox : ListBox_typ;
+END_VAR

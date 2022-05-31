@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DialogTrendFilter" height="760" width="480" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="20" left="30" width="165" zIndex="0" text="Section" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="65" left="30" width="420" height="40" zIndex="1" maxVisibleEntries="2" cornerRadius="4px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 100%)" disabledBackGroundGradient="" borderStyle="solid" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" textColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listBackGroundGradient="" listSeparatorColor="rgba(255, 255, 255, 0)" listBorderWidth="1px" textAlign="left" />
+    <Widget xsi:type="widgets.brease.ListBox" id="ListBox1" top="300" left="30" width="420" height="340" zIndex="2" borderWidth="1px" cornerRadius="4px" borderColor="rgba(40, 40, 40, 1)" backColor="rgba(255, 255, 255, 1)" listSeparatorColor="rgba(0, 0, 0, 0)" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox3" top="183" left="30" width="420" height="40" zIndex="3" maxVisibleEntries="2" cornerRadius="4px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 100%)" disabledBackGroundGradient="" borderStyle="solid" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" textColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listBackGroundGradient="" listSeparatorColor="rgba(255, 255, 255, 0)" listBorderWidth="1px" textAlign="left" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="137" left="30" width="160" zIndex="4" text="Hardware Type" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="255" left="30" width="160" zIndex="5" text="Hardware List" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="120" left="30" width="420" height="2" zIndex="6" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="238" left="30" width="420" height="2" zIndex="7" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="690" left="305" width="145" height="48" zIndex="8" text="APPLY" cornerRadius="20px" shadow="4px 4px 14px rgba(62, 79, 92, 0)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="670" left="0" width="480" height="2" zIndex="9" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+  </Widgets>
+</Content>

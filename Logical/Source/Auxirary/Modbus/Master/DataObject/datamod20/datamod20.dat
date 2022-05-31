@@ -1,0 +1,29 @@
+
+(* Num20 CS1030 *)
+			
+"gModbusGroup[20].Group[1].bEvent        ", 03, $01,  "gModbusGroup[20].Group[1].Value           ", 0000, 0017		;GDM25  R
+"gModbusGroup[20].Group[2].bEvent        ", 03, $02,  "gModbusGroup[20].Group[2].Value           ", 0000, 0017		;GDM25  S
+"gModbusGroup[20].Group[3].bEvent        ", 03, $03,  "gModbusGroup[20].Group[3].Value           ", 0000, 0017		;GDM25  T
+"gModbusGroup[20].Group[4].bEvent        ", 03, $04,  "gModbusGroup[20].Group[4].Value           ", 0000, 0017		;GDM26  R
+"gModbusGroup[20].Group[5].bEvent        ", 03, $05,  "gModbusGroup[20].Group[5].Value           ", 0000, 0017		;GDM26  S
+"gModbusGroup[20].Group[6].bEvent        ", 03, $06,  "gModbusGroup[20].Group[6].Value           ", 0000, 0017		;GDM26  T
+"gModbusGroup[20].Group[7].bEvent        ", 03, $07,  "gModbusGroup[20].Group[7].Value           ", 0000, 0017		;GDM27  R
+"gModbusGroup[20].Group[8].bEvent        ", 03, $08,  "gModbusGroup[20].Group[8].Value           ", 0000, 0017		;GDM27  S
+"gModbusGroup[20].Group[9].bEvent        ", 03, $09,  "gModbusGroup[20].Group[9].Value           ", 0000, 0017		;GDM27  T
+"gModbusGroup[20].Group[10].bEvent       ", 03, $10,  "gModbusGroup[20].Group[10].Value          ", 0000, 0017		;GDM28  R
+"gModbusGroup[20].Group[11].bEvent       ", 03, $11,  "gModbusGroup[20].Group[11].Value          ", 0000, 0017		;GDM28  S
+"gModbusGroup[20].Group[12].bEvent       ", 03, $12,  "gModbusGroup[20].Group[12].Value          ", 0000, 0017		;GDM28  T
+
+																														  
+;----------------------------------------------------------------------------------------------------------------------------
+;"LibDRVmbus.EventPV4            ", 16, $01, "LibDRVmbus.LocalPV4            ", 0000, 0003
+;"LibDRVmbus.EventPV3            ", 03, $01, "LibDRVmbus.LocalPV3            ", 0000, 0003
+; \_____________________________/	|    |    \_____________________________/    |      |
+;			 	 |					|    |				  	 |				     |      |
+;		   31 Characters		    |    |			   31 Characters  		     |      |_Number of coils or registers
+;			 						|    |				   						 |_Offset of the Modbus Variables
+;									|    |
+;									|    |_Target Address of the slave station
+;			 						|
+;			 						|_ Modbus function
+

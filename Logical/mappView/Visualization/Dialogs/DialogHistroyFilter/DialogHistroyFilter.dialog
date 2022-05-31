@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="DialogHistoryFilter" layoutRefId="HistoryFilterLayout" cornerRadius="8px" borderColor="rgba(245, 245, 245, 1)" headerBorderWidth="0px" textColor="rgba(91, 91, 91, 1)" bold="true" fontSize="24px" displayName="Filter" headerHeight="40px">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="DialogHistoryFilter" areaRefId="AreaMain" backColor="rgba(255, 255, 255, 1)" />
+  </Assignments>
+</ddef:Dialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gTR1Group" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="gTR1Alarm" />
+        <Property ID="1" Value="gTR1History" />
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+</Configuration>

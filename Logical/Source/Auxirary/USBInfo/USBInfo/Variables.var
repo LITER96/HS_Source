@@ -1,0 +1,13 @@
+(*Enum*)
+VAR
+	USBStep : USBStep_Enum;
+END_VAR
+(*FUB*)
+VAR
+	FB_USBNodeGet : UsbNodeGet;
+	FB_USBNodeList : UsbNodeListGet;
+END_VAR
+(*typ*)
+VAR
+	mNodeList : NodeList_typ;
+END_VAR

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="DialogAlarm" layoutRefId="AlarmLayout" displayName="System Alarm" cornerRadius="8px" headerBorderWidth="0px" shadow="5px 5px 20px rgba(62, 79, 92, 0)" showCloseButton="false">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="DialogAlarm" areaRefId="AreaMain" />
+  </Assignments>
+</ddef:Dialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentLogin" height="1010" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Password" id="Password1" top="465" left="900" width="260" height="50" zIndex="0" placeholder="password" />
+    <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="395" left="900" width="260" height="50" zIndex="1" placeholder="user name" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="395" left="755" width="120" height="50" zIndex="2" text="Username" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="465" left="755" width="120" height="50" zIndex="3" text="Password" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.LoginButton" id="LoginButton1" top="550" left="1040" width="120" height="50" zIndex="4" text="Login" cornerRadius="25px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="335" left="925" width="231" zIndex="5" value="" fontSize="18px" />
+  </Widgets>
+</Content>

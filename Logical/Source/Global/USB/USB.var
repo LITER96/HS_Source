@@ -1,0 +1,3 @@
+VAR
+	gUSB : USB_typ;
+END_VAR

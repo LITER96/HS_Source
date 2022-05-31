@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gComGroup" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="gTR1Group" />
+        <Property ID="1" Value="gZAERGroup" />
+        <Property ID="2" Value="gTR2Group" />
+        <Property ID="3" Value="gBCGroup" />
+        <Property ID="4" Value="gCTMGroup" />
+        <Property ID="5" Value="gTR3Group" />
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+</Configuration>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">mbMaster.typ</Object>
+    <Object Type="File" Description="Global variables">mbMaster.var</Object>
+    <Object Type="Package">DataObject</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group1</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group2</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group3</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group4</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group5</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group6</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group7</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group8</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group9</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group10</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group11</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group12</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group13</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group14</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group15</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group16</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group17</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group18</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group19</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group20</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group21</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group22</Object>
+    <Object Type="Program" Language="IEC" Description="task for the master">group23</Object>
+  </Objects>
+</Package>

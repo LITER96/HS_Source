@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="DialogTrendFilter_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+		<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeDropBox.DateProvider" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="DropDownBox1" attribute="dataProvider" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeDropBox1.DateProvider" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="DropDownBox3" attribute="dataProvider" />
+</Binding>
+		<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeDropBox.SelectIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="DropDownBox1" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeDropBox1.SelectIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="DropDownBox3" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeListBox.SelectIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="ListBox1" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:RealTimeListBox.DateProvider" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="ListBox1" attribute="dataProvider" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::HmiTrend:VisuTrend.Input.bApply" attribute="value" />
+<Target xsi:type="brease" contentRefId="DialogTrendFilter" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

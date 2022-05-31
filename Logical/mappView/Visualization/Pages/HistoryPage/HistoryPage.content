@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentHistory" height="1010" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="0" left="0" width="1920" height="1010" zIndex="0" borderStyle="none" backColor="rgba(227, 230, 232, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle15" top="20" left="1500" width="420" height="210" zIndex="1" borderStyle="none" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="1500" width="300" zIndex="2" text="Filter" fontSize="24px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="148" left="1560" width="300" height="50" zIndex="3" text="Select" cornerRadius="5px" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="88" left="1602" width="121" height="29" zIndex="4" text="Section : " fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="88" left="1718" width="121" height="29" zIndex="5" text="TR1" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox7" top="911" left="74" width="200" height="56" zIndex="6" boxSize="36" text="Minute" borderStyle="solid" borderWidth="1px" backColor="rgba(255, 255, 255, 1)" mouseDownBorderColor="rgba(51, 51, 51, 1)" mouseDownBorderWidth="1px" mouseDownBackColor="rgba(255, 255, 255, 1)" fontSize="20px" bold="true" padding="10px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox8" top="911" left="306" width="200" height="56" zIndex="7" boxSize="36" text="Hour" borderStyle="solid" borderWidth="1px" backColor="rgba(255, 255, 255, 1)" mouseDownBorderColor="rgba(51, 51, 51, 1)" mouseDownBorderWidth="1px" mouseDownBackColor="rgba(255, 255, 255, 1)" fontSize="20px" bold="true" padding="10px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="872" left="0" width="1920" height="2" zIndex="8" borderStyle="none" backColor="rgba(209, 209, 209, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="330" left="1500" width="420" zIndex="9" borderStyle="none" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="230" left="1500" width="420" zIndex="10" borderStyle="none" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle6" top="730" left="1500" width="420" zIndex="11" borderStyle="none" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle7" top="630" left="1500" width="420" zIndex="12" borderStyle="none" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle8" top="530" left="1500" width="420" zIndex="13" borderStyle="none" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle9" top="430" left="1500" width="420" zIndex="14" borderStyle="none" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxPressR" top="330" left="1500" width="420" height="100" zIndex="33" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxTempS" top="530" left="1500" width="420" height="100" zIndex="37" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxPressT" top="430" left="1500" width="420" height="100" zIndex="35" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxTempT" top="730" left="1500" width="420" height="100" zIndex="38" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxTempR" top="630" left="1500" width="420" height="100" zIndex="36" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxPressS" top="230" left="1500" width="420" height="100" zIndex="34" boxSize="36" fontSize="20px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle5" top="277" left="1575" width="36" height="6" zIndex="15" borderStyle="none" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle10" top="377" left="1575" width="36" height="6" zIndex="16" borderStyle="none" backColor="rgba(255, 133, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle11" top="475" left="1575" width="36" height="6" zIndex="17" borderStyle="none" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle12" top="577" left="1575" width="36" height="6" zIndex="18" borderStyle="none" backColor="rgba(0, 192, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle13" top="677" left="1575" width="36" height="6" zIndex="19" borderStyle="none" backColor="rgba(0, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="777" left="1575" width="36" height="6" zIndex="20" borderStyle="none" backColor="rgba(192, 0, 192, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="265" left="1772" width="130" zIndex="21" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="365" left="1772" width="130" zIndex="22" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="465" left="1772" width="130" zIndex="23" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="565" left="1772" width="130" zIndex="24" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="665" left="1772" width="130" zIndex="25" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="765" left="1772" width="130" zIndex="26" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="99.999" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="249" left="1630" width="150" zIndex="27" text="Pressure R" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="449" left="1630" width="150" zIndex="28" text="Pressure T" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="349" left="1630" width="150" zIndex="29" text="Pressure S" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="549" left="1630" width="170" zIndex="30" text="Temperature R" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="649" left="1630" width="170" zIndex="31" text="Temperature S" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="749" left="1630" width="170" zIndex="32" text="Temperature T" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.LineChart" id="LineChart1" top="0" left="-5" width="1520" height="875" zIndex="39" chartColor="rgba(0, 0, 0, 1)" gridColor="rgba(31, 255, 0, 0.2)" fontSize="20px" borderStyle="none">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.LineChartYAxis" id="LineChartYAxis1" zIndex="0">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph1" zIndex="0" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" lineColor="rgba(255, 0, 0, 1)" activeIntersectionPointColor="rgba(255, 0, 0, 1)" />
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph2" zIndex="1" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" />
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph3" zIndex="2" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" lineColor="rgba(255, 255, 0, 1)" activeIntersectionPointColor="rgba(255, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph4" zIndex="3" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" lineColor="rgba(0, 192, 0, 1)" activeIntersectionPointColor="rgba(0, 192, 0, 1)" />
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph5" zIndex="4" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" lineColor="rgba(0, 0, 255, 1)" activeIntersectionPointColor="rgba(0, 0, 255, 1)" />
+            <Widget xsi:type="widgets.brease.LineChartGraph" id="LineChartGraph6" zIndex="5" interpolationType="cardinal" xAxisRefId="LineChartTimeAxis1" lineColor="rgba(192, 0, 192, 1)" activeIntersectionPointColor="rgba(192, 0, 192, 1)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.LineChartTimeAxis" id="LineChartTimeAxis1" zIndex="1" format="HH:mm:ss">
+          <Widgets />
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

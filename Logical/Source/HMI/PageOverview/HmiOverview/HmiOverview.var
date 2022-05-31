@@ -1,0 +1,14 @@
+(*
+Variable*)
+VAR
+	i : INT;
+	j : INT;
+	cnt : INT;
+END_VAR
+(*
+Blinking*)
+VAR
+	bBlinking : BOOL;
+	nCount : INT;
+	nDiCount : INT;
+END_VAR

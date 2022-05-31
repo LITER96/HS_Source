@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">SymbolLib</Object>
+    <Object Type="File">moroco.png</Object>
+    <Object Type="File">Alarm Status.png</Object>
+    <Object Type="File">Alarm Status1.png</Object>
+    <Object Type="File">alarm1.png</Object>
+    <Object Type="File">alarm2.png</Object>
+    <Object Type="File">alarm3.png</Object>
+    <Object Type="File">alarm4.png</Object>
+    <Object Type="File">alarm6.png</Object>
+    <Object Type="File">Bay.png</Object>
+    <Object Type="File">BOX2.png</Object>
+    <Object Type="File">BOX3.png</Object>
+    <Object Type="File">data1.png</Object>
+    <Object Type="File">data2.png</Object>
+    <Object Type="File">data3.png</Object>
+    <Object Type="File">data4.png</Object>
+    <Object Type="File">data5.png</Object>
+    <Object Type="File">data6.png</Object>
+    <Object Type="File">data7.png</Object>
+    <Object Type="File">Detail.png</Object>
+    <Object Type="File">logo.png</Object>
+    <Object Type="File">logo10.png</Object>
+    <Object Type="File">Table1.png</Object>
+    <Object Type="File">Table2.png</Object>
+    <Object Type="File">Table3.png</Object>
+    <Object Type="File">sensor0.png</Object>
+    <Object Type="File">sensor1.png</Object>
+    <Object Type="File">sensor2.png</Object>
+    <Object Type="File">GIS7.png</Object>
+    <Object Type="File">checkbox.png</Object>
+    <Object Type="File">uncheckbox.png</Object>
+  </Objects>
+</Package>

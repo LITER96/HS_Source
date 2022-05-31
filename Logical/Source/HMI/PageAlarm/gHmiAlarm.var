@@ -1,0 +1,4 @@
+VAR
+	gVisuAlarm : gVisuAlarm_typ;
+	Popup : Popup_typ;
+END_VAR

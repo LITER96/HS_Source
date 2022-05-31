@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentTest_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="ContentTest.PushButton1.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentTest" widgetRefId="PushButton1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogDetail" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentTest.PushButton2.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentTest" widgetRefId="PushButton2" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogDetail" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentTest.PushButton3.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentTest" widgetRefId="PushButton3" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogTrendFilter" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentTest.PushButton4.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentTest" widgetRefId="PushButton4" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogHistoryFilter" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentTest.ToggleButton1.Click">
+      <Source xsi:type="widgets.brease.ToggleButton.Event" contentRefId="ContentTest" widgetRefId="ToggleButton1" event="ValueChanged" />
+      <EventHandler condition="newValue = TRUE">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentTest" widgetRefId="NumericOutput1">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = FALSE">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentTest" widgetRefId="NumericOutput1">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

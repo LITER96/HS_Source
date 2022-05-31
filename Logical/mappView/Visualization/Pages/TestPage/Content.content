@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_0" height="1010" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.XYChart" id="XYChart1" top="5" left="5" width="1550" height="875" zIndex="0" borderStyle="none" chartColor="rgba(0, 0, 0, 1)">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" showUnit="false" gridColor="rgba(31, 255, 0, 0.2)" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" showUnit="false" gridColor="rgba(31, 255, 0, 0.2)" />
+        </xAxis>
+        <graph>
+          <Element id="PressR" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(255, 0, 0, 1)" />
+          <Element id="PressS" xAxisReference="xAxis1" yAxisReference="yAxis1" />
+          <Element id="PressT" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(255, 255, 0, 1)" />
+          <Element id="TempR" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(0, 192, 0, 1)" />
+          <Element id="TempS" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(0, 0, 255, 1)" />
+          <Element id="TempT" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(192, 0, 192, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+  </Widgets>
+</Content>

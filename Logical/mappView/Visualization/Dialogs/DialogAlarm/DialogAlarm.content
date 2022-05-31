@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DialogAlarm" height="1000" width="1720" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="0" left="0" width="1720" height="900" zIndex="0" itemsPerPage="13" searchBox="false" backColor="rgba(255, 255, 255, 1)" headerBackColor="rgba(214, 216, 219, 1)" headerFontSize="23px" backColorSelectedRow="rgba(235, 238, 244, 1)" textColorSelectedRow="rgba(115, 115, 115, 1)" fontSize="20px" shadow="4px 4px 14px rgba(62, 79, 92, 0)" cornerRadius="0px" headerTextAlign="center" textAlign="left" cellBorderColor="rgba(0, 0, 0, 1)" disabledBackColorEvenRow="rgba(249, 249, 249, 1)" disabledHeaderBackColor="rgba(235, 238, 244, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="140" zIndex="0" columnType="state" text="State" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="400" zIndex="1" columnType="timestamp" text="Active Time" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="335" zIndex="2" columnType="name" text="Alarm Name" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" width="130" zIndex="3" columnType="severity" text="Severity" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" width="715" zIndex="4" text="Alarm Description" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="915" left="1485" width="225" height="70" zIndex="1" text="Close" cornerRadius="40px" fontSize="20px" />
+  </Widgets>
+</Content>

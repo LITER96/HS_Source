@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentAlarmHistory" height="1010" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory1" top="5" left="5" width="1720" height="940" zIndex="1" itemsPerPage="13" searchBox="false" backColor="rgba(255, 255, 255, 1)" headerBackColor="rgba(214, 216, 219, 1)" headerFontSize="23px" backColorSelectedRow="rgba(235, 238, 244, 1)" textColorSelectedRow="rgba(115, 115, 115, 1)" fontSize="22px" shadow="4px 4px 14px rgba(62, 79, 92, 0.75)" headerTextAlign="center" bold="false" cellBorderColor="rgba(0, 0, 0, 1)" cellPadding="14px 14px" disabledBackColorEvenRow="rgba(249, 249, 249, 1)" disabledHeaderBackColor="rgba(235, 238, 244, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem1" width="145" zIndex="0" columnType="old state" text="Old State" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem2" width="145" zIndex="1" columnType="new state" text="New State" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem3" width="445" zIndex="2" columnType="timestamp" text="Active Time" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem4" width="355" zIndex="3" columnType="name" text="Alarm Number" />
+        <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem5" width="630" zIndex="4" text="Alarm Description" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button6" top="5" left="1745" width="160" height="100" zIndex="2" image="Media/SymbolLib/Edit/sort.svg" imageHeight="60" imageWidth="160" cornerRadius="8px" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Button" id="Button7" top="110" left="1745" width="160" height="100" zIndex="3" image="Media/SymbolLib/Edit/filter.png" imageHeight="60" imageWidth="60" cornerRadius="8px" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="950" left="0" width="960" height="60" zIndex="4" text="Current Alarm" backGroundGradient="linear-gradient(to bottom,#ebeef4 0%,#ffffff 100%)" textAlign="center" fontSize="26px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="950" left="960" width="960" height="60" zIndex="5" text="History Alarm" backGroundGradient="linear-gradient(to bottom, #4A4A4A 0%,#7C7C7C 100%)" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="26px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="0" left="0" width="1920" height="1010" zIndex="0" borderStyle="none" backColor="rgba(227, 230, 232, 1)" />
+  </Widgets>
+</Content>

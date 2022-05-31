@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">Common</Object>
+    <Object Type="Package">PageOverview</Object>
+    <Object Type="Package">PageSetup</Object>
+    <Object Type="Package">PageTrend</Object>
+    <Object Type="Package">PageHistory</Object>
+    <Object Type="Package">PageAlarm</Object>
+  </Objects>
+</Package>

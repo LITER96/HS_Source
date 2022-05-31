@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DialogDetail" height="930" width="1800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA" top="48" left="465" width="820" height="450" zIndex="2" updateBufferTime="5000" updateChartTime="30" zoomType="x" borderWidth="3px" borderColor="rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1)" borderStyle="none" backColor="rgba(227, 230, 232, 0)" chartColor="rgba(0, 0, 0, 1)">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" max="10" gridColor="rgba(31, 255, 0, 0.2)" textColor="rgba(115, 115, 115, 1)" fontSize="16px" titleTextColor="rgba(71, 71, 71, 1)" disabledTextColor="rgba(115, 115, 115, 1)" titleFontSize="16px" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" fontSize="16px" gridColor="rgba(31, 255, 0, 0.2)" textColor="rgba(115, 115, 115, 1)" disabledTextColor="rgba(115, 115, 115, 1)" />
+        </xAxis>
+        <graph>
+          <Element id="Press_R" yAxisReference="yAxis1" lineColor="rgba(255, 0, 0, 1)" />
+          <Element id="Press_S" yAxisReference="yAxis1" lineColor="rgba(255, 133, 0, 1)" />
+          <Element id="Press_T" yAxisReference="yAxis1" lineColor="rgba(255, 255, 0, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Image" id="Image1083" top="265" left="1295" width="480" height="130" zIndex="3" image="Media/bay.png" sizeMode="fill" />
+    <Widget xsi:type="widgets.brease.ListBox" id="ListBox1" top="115" left="10" width="450" height="320" zIndex="5" backColor="rgba(255, 255, 255, 1)" listSeparatorColor="rgba(0, 0, 0, 0)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="5" left="10" width="450" height="60" zIndex="6" borderWidth="0px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" fontSize="46px" padding="0px" style="Output" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="75" left="245" zIndex="7" listPosition="bottom" listWidth="100" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 0%)" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listSeparatorColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox2" top="75" left="350" zIndex="8" listPosition="bottom" listWidth="100" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 100%)" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listSeparatorColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label36" top="65" left="10" width="450" height="50" zIndex="4" text="Filter" borderWidth="2px" backColor="rgba(74, 80, 96, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" textAlign="left" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label33" top="15" left="1280" width="510" height="50" zIndex="9" text="Sensor" borderWidth="1px" backColor="rgba(74, 80, 96, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="512" left="465" width="820" height="450" zIndex="10" updateBufferTime="5000" updateChartTime="30" zoomType="x" borderWidth="3px" borderColor="rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1)" borderStyle="none" backColor="rgba(227, 230, 232, 0)" chartColor="rgba(0, 0, 0, 1)">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" max="10" gridColor="rgba(31, 255, 0, 0.2)" textColor="rgba(115, 115, 115, 1)" fontSize="16px" titleTextColor="rgba(71, 71, 71, 1)" disabledTextColor="rgba(115, 115, 115, 1)" titleFontSize="16px" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" fontSize="16px" gridColor="rgba(31, 255, 0, 0.2)" textColor="rgba(115, 115, 115, 1)" disabledTextColor="rgba(115, 115, 115, 1)" />
+        </xAxis>
+        <graph>
+          <Element id="Temp_R" yAxisReference="yAxis1" lineColor="rgba(0, 192, 0, 1)" />
+          <Element id="Temp_S" yAxisReference="yAxis1" lineColor="rgba(0, 0, 255, 1)" />
+          <Element id="Temp_T" yAxisReference="yAxis1" lineColor="rgba(192, 0, 192, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label43" top="65" left="1280" width="170" height="40" zIndex="11" text="R" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label44" top="65" left="1450" width="170" height="40" zIndex="12" text="S" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label45" top="65" left="1620" width="170" height="40" zIndex="13" text="T" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="105" left="1280" width="170" height="90" zIndex="14" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="105" left="1620" width="170" height="90" zIndex="15" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="105" left="1450" width="170" height="90" zIndex="16" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label34" top="430" left="1280" width="510" height="50" zIndex="17" text="Detail Alarm" borderWidth="1px" backColor="rgba(74, 80, 96, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label46" top="480" left="1430" width="120" height="40" zIndex="18" text="R" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label47" top="480" left="1550" width="120" height="40" zIndex="19" text="S" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label48" top="480" left="1670" width="120" height="40" zIndex="20" text="T" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="520" left="1430" width="120" height="80" zIndex="21" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle5" top="520" left="1670" width="120" height="80" zIndex="22" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle6" top="520" left="1550" width="120" height="80" zIndex="23" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label49" top="480" left="1280" width="150" height="40" zIndex="24" text="Type" borderWidth="1px" backColor="rgba(214, 216, 219, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle8" top="600" left="1430" width="120" height="80" zIndex="25" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle9" top="600" left="1670" width="120" height="80" zIndex="26" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle10" top="600" left="1550" width="120" height="80" zIndex="27" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle12" top="680" left="1430" width="120" height="80" zIndex="28" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle13" top="680" left="1670" width="120" height="80" zIndex="29" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="680" left="1550" width="120" height="80" zIndex="30" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle16" top="835" left="1430" width="120" height="80" zIndex="31" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle17" top="835" left="1670" width="120" height="80" zIndex="32" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle18" top="835" left="1550" width="120" height="80" zIndex="33" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle20" top="0" left="0" width="1800" height="930" zIndex="0" borderStyle="none" backColor="rgba(227, 230, 232, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label35" top="208" left="1280" width="510" height="50" zIndex="34" text="Alarm" borderWidth="1px" backColor="rgba(74, 80, 96, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label55" top="390" left="1365" width="90" height="20" zIndex="35" text="R" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label56" top="390" left="1490" width="90" height="20" zIndex="36" text="S" backColor="rgba(255, 255, 255, 0)" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label57" top="390" left="1620" width="90" height="20" zIndex="37" text="T" backColor="rgba(255, 255, 255, 0)" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle27" top="255" left="1280" width="511" height="165" zIndex="1" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label37" top="445" left="10" width="450" height="50" zIndex="38" text="Value" borderWidth="2px" backColor="rgba(74, 80, 96, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(255, 255, 255, 1)" textAlign="left" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle22" top="495" left="10" width="450" height="70" zIndex="39" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle28" top="565" left="10" width="450" height="70" zIndex="40" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle29" top="635" left="10" width="450" height="70" zIndex="41" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle30" top="705" left="10" width="450" height="70" zIndex="42" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle31" top="775" left="10" width="450" height="70" zIndex="43" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle32" top="845" left="10" width="450" height="70" zIndex="44" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(249, 249, 249, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle33" top="527" left="35" width="36" height="6" zIndex="45" borderStyle="none" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle34" top="597" left="35" width="36" height="6" zIndex="46" borderStyle="none" backColor="rgba(255, 133, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle35" top="667" left="35" width="36" height="6" zIndex="47" borderStyle="none" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle36" top="737" left="35" width="36" height="6" zIndex="48" borderStyle="none" backColor="rgba(0, 192, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle37" top="807" left="35" width="36" height="6" zIndex="49" borderStyle="none" backColor="rgba(0, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle38" top="877" left="35" width="36" height="6" zIndex="50" borderStyle="none" backColor="rgba(192, 0, 192, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="515" left="255" width="130" zIndex="51" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="585" left="255" width="130" zIndex="52" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="655" left="255" width="130" zIndex="53" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="725" left="255" width="130" zIndex="54" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="795" left="255" width="130" zIndex="55" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="865" left="255" width="130" zIndex="56" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" value="1678.1" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="499" left="94" width="150" zIndex="57" text="Pressure R" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="639" left="89" width="150" zIndex="58" text="Pressure T" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="569" left="89" width="150" zIndex="59" text="Pressure S" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="709" left="89" width="170" zIndex="60" text="Temperature R" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="779" left="89" width="170" zIndex="61" text="Temperature S" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="849" left="89" width="170" zIndex="62" text="Temperature T" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label58" top="520" left="1280" width="150" height="80" zIndex="63" text="1st Stage" borderWidth="1px" backColor="rgba(249, 249, 249, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label60" top="835" left="1280" width="150" height="80" zIndex="64" text="Temperature" borderWidth="1px" backColor="rgba(249, 249, 249, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label61" top="600" left="1280" width="150" height="80" zIndex="65" text="2nd Stage" borderWidth="1px" backColor="rgba(249, 249, 249, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label62" top="680" left="1280" width="150" height="80" zIndex="66" text="High" borderWidth="1px" backColor="rgba(249, 249, 249, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="544" left="1474" width="32" height="32" zIndex="67" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList2" top="544" left="1594" width="32" height="32" zIndex="68" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList3" top="544" left="1714" width="32" height="32" zIndex="69" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="624" left="1474" width="32" height="32" zIndex="70" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="624" left="1594" width="32" height="32" zIndex="71" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="624" left="1714" width="32" height="32" zIndex="72" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList7" top="704" left="1474" width="32" height="32" zIndex="73" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList8" top="704" left="1594" width="32" height="32" zIndex="74" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList9" top="704" left="1714" width="32" height="32" zIndex="75" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList10" top="859" left="1474" width="32" height="32" zIndex="76" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList11" top="859" left="1594" width="32" height="32" zIndex="77" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList12" top="859" left="1714" width="32" height="32" zIndex="78" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList13" top="135" left="1349" width="32" height="32" zIndex="79" imageList="['alarm4.png', 'alarm1.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList14" top="135" left="1519" width="32" height="32" zIndex="80" imageList="['alarm4.png', 'alarm1.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList15" top="135" left="1689" width="32" height="32" zIndex="81" imageList="['alarm4.png', 'alarm1.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="499" left="376" width="56" zIndex="82" text="[bar]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="639" left="376" width="56" zIndex="83" text="[bar]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label12" top="569" left="376" width="56" zIndex="84" text="[bar]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="709" left="376" width="56" zIndex="85" text="[°C]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="779" left="376" width="56" zIndex="86" text="[°C]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="849" left="376" width="56" zIndex="87" text="[°C]" fontSize="20px" bold="true" padding="0px" margin="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label38" top="16" left="520" width="728" height="51" zIndex="88" text="Pressure [bar]" textAlign="center" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label39" top="480" left="520" width="728" height="51" zIndex="89" text="Temperature [°C]" textAlign="center" fontSize="24px" bold="true" padding="20px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList16" top="280" left="1365" width="100" zIndex="90" imageList="['sensor0.png', 'sensor1.png', 'sensor2.png']" imagePrefix="Media/" sizeMode="fill" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList18" top="280" left="1615" width="100" zIndex="91" imageList="['sensor0.png', 'sensor1.png', 'sensor2.png']" imagePrefix="Media/" sizeMode="fill" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList19" top="280" left="1490" width="100" zIndex="92" imageList="['sensor0.png', 'sensor1.png', 'sensor2.png']" imagePrefix="Media/" sizeMode="fill" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle19" top="755" left="1430" width="120" height="80" zIndex="93" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle21" top="755" left="1670" width="120" height="80" zIndex="94" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle23" top="755" left="1550" width="120" height="80" zIndex="95" lineColor="rgba(240, 241, 245, 1)" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label63" top="755" left="1280" width="150" height="80" zIndex="96" text="Change" borderWidth="1px" backColor="rgba(249, 249, 249, 1)" borderColor="rgba(240, 241, 245, 1)" borderStyle="solid" textColor="rgba(90, 90, 90, 1)" textAlign="center" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList17" top="779" left="1474" width="32" height="32" zIndex="97" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList20" top="779" left="1594" width="32" height="32" zIndex="98" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList21" top="779" left="1714" width="32" height="32" zIndex="99" imageList="['alarm1.png', 'alarm3.png']" imagePrefix="Media/" />
+  </Widgets>
+</Content>

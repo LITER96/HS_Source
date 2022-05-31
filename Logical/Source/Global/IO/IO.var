@@ -1,0 +1,4 @@
+VAR
+	gMappingDI : ARRAY[1..12] OF BOOL;
+	gMappingDO : ARRAY[1..6] OF BOOL;
+END_VAR

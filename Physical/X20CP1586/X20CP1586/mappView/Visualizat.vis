@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="GDMS" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+	<StartPage pageRefId="OverviewPage" />
+	<Pages>
+		<Page refId="LoginPage"/>	
+		<Page refId="OverviewPage"/>
+		<Page refId="SetupPage"/>
+		<Page refId="TrendPage"/>
+		<Page refId="HistoryPage"/>
+		<Page refId="AlarmPage"/>
+		<Page refId="AlarmHistoryPage"/>
+		<Page refId="TestPage"/>		
+	</Pages>
+	
+	<Navigations>
+		<!--<Navigation refId="" />-->
+	</Navigations>  
+	<BindingsSets>
+		<BindingsSet refId="ContentLogin_binding" />
+		<BindingsSet refId="ContentHeader_binding" />
+		<BindingsSet refId="ContentOverview_binding" />
+		<BindingsSet refId="ContentSetup_binding" />
+		<BindingsSet refId="ContentTrend_binding" />
+		<BindingsSet refId="ContentHistory_binding" />
+		<BindingsSet refId="ContentAlarm_binding" />
+		<BindingsSet refId="DialogDetail_binding" />
+		<BindingsSet refId="DialogTrendFilter_binding" />
+		<BindingsSet refId="DialogAlarm_binding" />
+		<BindingsSet refId="ContentTest_binding" />		
+		<BindingsSet refId="ContentAlarmHistory_binding" />
+		<!--<BindingsSet refId="" />-->
+		<!--<BindingsSet refId="" />-->
+		<!--<BindingsSet refId="" />-->
+		<!--<BindingsSet refId="" />-->
+		<!--<BindingsSet refId="" />-->
+	</BindingsSets>
+	<EventBindingsSets>
+		<EventBindingsSet refId="ContentLogin_eventbinding" />
+		<EventBindingsSet refId="ContentSetup_eventbinding" />
+		<EventBindingsSet refId="ContentHeader_eventbinding" />
+		<EventBindingsSet refId="ContentTrend_eventbinding" />
+		<EventBindingsSet refId="ContentHistory_eventbinding" />
+		<EventBindingsSet refId="ContentAlarm_eventbinding" />
+		<EventBindingsSet refId="ContentTest_eventbinding" />	
+		<EventBindingsSet refId="ContentOverview_eventbinding" />
+		<EventBindingsSet refId="ContentAlarmHistory_eventbinding" />
+		<!--<EventBindingsSet refId="" />-->
+		<!--<EventBindingsSet refId="" />-->
+		<!--<EventBindingsSet refId="" />-->
+		<!--<EventBindingsSet refId="" />-->
+		<!--<EventBindingsSet refId="" />-->
+	</EventBindingsSets>
+	<Dialogs>
+		<Dialog refId="DialogDetail" />
+		<Dialog refId="DialogHistoryFilter" />
+		<Dialog refId="DialogTrendFilter" />
+		<Dialog refId="DialogAlarm" />
+		
+	</Dialogs>
+	<Contents>
+		<!--<Content refId="" />-->
+	</Contents>
+	<SnippetsSets>
+		<!--<SnippetsSet refId=""/>-->
+	</SnippetsSets>
+	<ExpressionsSets>
+		<!--<ExpressionsSet refId=""/>-->
+	</ExpressionsSets>
+	<VariablesSets>
+		<!--<VariablesSet refId="SessionVariablesMain" />	 -->
+		<!--<VariablesSet refId="" />-->
+	</VariablesSets>
+	<StartTheme themeRefId="BuRTheme1" />
+	<Themes>
+		<Theme refId="BuRTheme1"/>
+	</Themes>
+	<Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="zoom" value="true" />
+		<Configuration key="bootLogo" value="Media/logo.png" />
+		<Configuration key="bootColor" value="#FFFFFF" />
+		<Configuration key="bootProgressBar" value="true" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards> 
+	</Configurations>
+</vdef:Visualization>
+

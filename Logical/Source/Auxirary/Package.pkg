@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">Modbus</Object>
+    <Object Type="Package">Interface</Object>
+    <Object Type="Package">USBInfo</Object>
+    <Object Type="Package">Devlink</Object>
+    <Object Type="Package">Record</Object>
+    <Object Type="Package">Test</Object>
+  </Objects>
+</Package>

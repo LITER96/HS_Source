@@ -1,0 +1,2361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentOverview_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:PressUnitBox.SelectIndex" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="DropDownBox4" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:PressUnitBox.DateProvider" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="DropDownBox4" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:TempUnitBox.SelectIndex" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="DropDownBox3" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:TempUnitBox.DateProvider" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="DropDownBox3" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Image1" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label52" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label48" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label54" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label47" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label44" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Image3" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label51" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Image2" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label53" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label49" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label46" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label43" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Image4" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ToggleButton1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="Label50" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList1" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList2" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList3" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList4" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList5" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList6" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList12" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList11" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList10" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList9" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList8" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList7" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList15" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList14" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList13" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList18" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList17" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList16" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList19" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList20" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList21" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList22" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList23" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList24" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList93" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList92" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList91" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList96" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList95" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList94" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList228" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList227" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList226" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList99" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList98" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList97" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList102" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList101" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList100" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList105" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList104" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList103" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList109" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList110" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList111" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList107" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList108" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList106" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList114" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList113" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList112" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList87" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList86" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList85" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList90" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList89" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList88" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList136" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList137" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList138" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList36" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList35" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList34" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList33" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList32" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList31" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList133" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList134" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList135" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList130" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList131" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList132" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList229" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList230" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList231" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList127" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList128" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList129" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList124" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList125" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList126" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList232" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList233" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList234" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList121" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList122" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList123" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList118" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList119" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList120" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList115" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList116" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList117" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList30" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList29" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList28" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList27" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList26" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList25" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList57" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList56" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList55" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList52" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList53" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList54" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList49" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList50" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList51" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList48" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList47" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList46" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList45" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList44" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList43" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList66" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList65" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList64" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList63" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList62" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList61" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList42" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList41" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList40" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList39" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList38" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList37" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList157" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList158" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList159" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList154" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList156" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList155" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList153" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList152" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList151" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList148" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList149" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList150" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList145" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList146" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList147" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList139" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList140" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList141" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList235" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList236" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList237" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList142" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList143" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList144" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[10].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList58" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[10].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList59" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[10].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList60" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList222" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList221" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList220" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList225" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList224" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList223" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList160" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList161" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList162" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList165" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList164" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList163" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList168" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList167" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList166" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList171" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList72" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList71" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList70" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList69" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList68" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList67" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList174" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList173" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList172" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList169" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList170" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList241" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList242" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList243" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList181" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList182" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList183" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList178" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList179" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList180" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList175" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList176" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList177" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList84" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList83" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList82" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList81" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList80" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList79" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList78" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList77" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList76" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList75" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList74" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList73" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList193" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList194" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList195" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList190" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList191" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList192" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList238" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList239" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList240" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList187" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList188" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList189" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList184" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList185" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList186" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList217" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList218" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList219" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList214" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList216" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList215" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList213" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList212" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList211" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList208" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList209" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList210" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList205" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList206" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList207" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList202" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList203" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList204" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList244" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList245" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList246" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList199" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList200" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList201" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].bLED[3]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList196" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].bLED[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList197" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].bLED[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="ImageList198" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput11" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput10" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput7" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput6" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput17" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput16" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput23" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput22" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput25" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput24" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput15" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput14" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput5" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput4" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput13" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput12" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput9" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput8" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput26" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput21" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput20" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput19" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput18" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput29" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput28" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput39" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput38" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput37" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput36" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput35" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput34" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput33" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput32" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput31" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput30" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput27" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput47" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput46" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput49" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput48" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput41" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput40" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput51" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput50" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput53" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput52" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput57" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput56" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput61" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput60" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput59" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput58" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput55" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput54" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput43" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput42" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput45" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput44" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput75" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput74" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput73" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput72" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput71" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput70" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput69" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput68" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput67" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput66" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput63" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput62" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput79" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput78" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput77" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput76" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput65" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput64" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput85" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput84" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput81" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput80" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput91" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput90" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput89" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput88" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput87" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput86" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput83" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput82" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput153" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput152" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput107" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput106" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput151" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput150" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput109" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput108" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput95" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput94" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput93" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput92" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput101" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput100" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput103" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput102" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput99" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput98" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput97" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput96" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput105" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput104" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput131" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput130" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput129" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput128" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput165" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput164" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput125" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput124" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput123" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput122" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput119" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput118" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput117" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput116" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput115" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput114" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput121" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput120" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput133" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput132" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput127" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput126" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput159" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput158" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput163" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput162" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput157" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput156" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput161" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput160" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput149" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput148" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput147" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput146" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput145" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput144" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].rAvgTemp" attribute="node" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput143" attribute="node" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].rAvgPress" attribute="node" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput142" attribute="node" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].rAvgTemp" attribute="node" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput141" attribute="node" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].rAvgPress" attribute="node" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput140" attribute="node" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput137" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput136" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput155" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput154" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput135" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput134" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].rAvgTemp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput139" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].rAvgPress" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput138" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton4" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton43" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton42" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton6" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDM[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton5" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDV[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton29" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GDV[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton44" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton45" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton47" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton46" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton48" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton49" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton50" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton9" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton51" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR1.GD[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton52" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton53" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton35" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton36" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton38" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton39" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton37" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton40" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton41" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton34" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton8" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.ZAER.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton7" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton59" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton58" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton16" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton57" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton56" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton55" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton54" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton31" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton30" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton62" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton18" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton17" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton15" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton14" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton13" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton12" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton10" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR2.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton11" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton63" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton20" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDM[10].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton19" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton28" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton82" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton60" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton32" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton33" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDV[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton64" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.BC.GDV[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton61" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton65" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton66" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton69" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton67" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton68" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton70" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton71" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton73" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton72" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton22" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.CTM.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton21" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GDM[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton26" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GDM[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton24" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GDM[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton25" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GDM[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton23" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[9].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton81" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[8].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton80" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[7].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton27" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[6].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton79" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[5].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton78" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[1].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton77" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[4].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton76" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[3].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton75" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Input.TR3.GD[2].bDialogDetail" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="PushButton74" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput6" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput16" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDV[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput2" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput22" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput24" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput14" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput4" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput12" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput8" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput10" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput18" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput32" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput30" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput28" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput26" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput20" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput38" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput36" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR1.GD[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput34" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput42" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput44" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput46" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput48" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput40" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput50" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput52" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput54" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput56" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput60" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.ZAER.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput58" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput74" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput72" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput70" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput68" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput66" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput64" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput62" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput78" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput76" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput94" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput92" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput90" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput88" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput86" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput82" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput84" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR2.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput80" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[10].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput112" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput110" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput150" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDM[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput108" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput100" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput102" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput98" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput96" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput104" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput152" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.BC.GDV[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput106" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput130" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput128" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput164" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput124" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput122" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput120" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput118" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput116" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput114" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput132" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.CTM.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput126" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput158" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput162" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput156" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GDM[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput160" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[9].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput148" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[8].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput146" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[7].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput144" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[6].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput142" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[5].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput140" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[1].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput138" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[4].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput136" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[3].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput154" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVisuOverView.Output.TR3.GD[2].strSetStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentOverview" widgetRefId="NumericOutput134" attribute="style" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="PressUnitBox">
+          <Variable Name="DateProvider" EnableArrayElements="True" />
+          <Variable Name="SelectIndex" />
+        </Variable>
+        <Variable Name="TempUnitBox">
+          <Variable Name="DateProvider" EnableArrayElements="True" />
+          <Variable Name="SelectIndex" />
+        </Variable>
+        <Variable Name="DetailDropBox">
+          <Variable Name="DateProvider" />
+          <Variable Name="SelectIndex" />
+        </Variable>
+        <Variable Name="DetailDropBox1">
+          <Variable Name="DateProvider" />
+          <Variable Name="SelectIndex" />
+        </Variable>
+        <Variable Name="DetailListBox">
+          <Variable Name="DateProvider" />
+          <Variable Name="SelectIndex" />
+        </Variable>
+        <Variable Name="gVisuSetup">
+          <Variable Name="Input">
+            <Variable Name="bApply" />
+            <Variable Name="SetValue">
+              <Variable Name="strType" />
+              <Variable Name="rPressure_1st" EnableArrayElements="True" />
+              <Variable Name="rPressure_1st_Reset" EnableArrayElements="True" />
+              <Variable Name="rPressure_2nd" EnableArrayElements="True" />
+              <Variable Name="rPressure_2nd_Reset" EnableArrayElements="True" />
+              <Variable Name="rPressure_High" EnableArrayElements="True" />
+              <Variable Name="rPressure_High_Reset" EnableArrayElements="True" />
+              <Variable Name="rPressure_Change" EnableArrayElements="True" />
+              <Variable Name="rTemperature" EnableArrayElements="True" />
+              <Variable Name="rTemperature_Reset" EnableArrayElements="True" />
+              <Variable Name="bActive_1st" EnableArrayElements="True" />
+              <Variable Name="bActive_2nd" EnableArrayElements="True" />
+              <Variable Name="bActive_High" EnableArrayElements="True" />
+              <Variable Name="bActive_Temperature" EnableArrayElements="True" />
+              <Variable Name="bActive_Rising" EnableArrayElements="True" />
+              <Variable Name="rPressure_Change_Period" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="bEnable" />
+            <Variable Name="bDisable" />
+          </Variable>
+          <Variable Name="Output">
+            <Variable Name="CurrentValue" AutomaticEnable="True">
+              <Variable Name="rPress" EnableArrayElements="True" />
+              <Variable Name="rTemp" EnableArrayElements="True" />
+              <Variable Name="rChange" EnableArrayElements="True" />
+              <Variable Name="nTextColor_Press" EnableArrayElements="True" />
+              <Variable Name="nTextColor_Temp" EnableArrayElements="True" />
+              <Variable Name="nTextColor_Rising" EnableArrayElements="True" />
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="SetupDropBox" AutomaticEnable="True" />
+        <Variable Name="SetupDropBox1" AutomaticEnable="True" />
+        <Variable Name="SetupListBox" AutomaticEnable="True" />
+        <Variable Name="gVisuOverView">
+          <Variable Name="Input">
+            <Variable Name="TR1" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+              <Variable Name="GDV" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="TR2" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="TR3" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="ZAER" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="BC" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+              <Variable Name="GDV" EnableArrayElements="True" />
+            </Variable>
+            <Variable Name="CTM" AutomaticEnable="True">
+              <Variable Name="GDM" EnableArrayElements="True" />
+              <Variable Name="GD" EnableArrayElements="True" />
+            </Variable>
+          </Variable>
+          <Variable Name="Output">
+            <Variable AuditEvents="True" Name="TR1">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GDV" EnableArrayElements="True">
+                <Variable Name="GDV[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDV[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable AuditEvents="True" Name="TR2">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable AuditEvents="True" Name="TR3">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable AuditEvents="True" Name="ZAER">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable AuditEvents="True" Name="BC">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[10]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GDV" EnableArrayElements="True">
+                <Variable Name="GDV[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDV[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable AuditEvents="True" Name="CTM">
+              <Variable Name="GDM" EnableArrayElements="True">
+                <Variable Name="GDM[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GDM[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="GD" EnableArrayElements="True">
+                <Variable Name="GD[1]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[2]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[3]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[4]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[5]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[6]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[7]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[8]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+                <Variable Name="GD[9]">
+                  <Variable Name="bLED" EnableArrayElements="True" />
+                </Variable>
+              </Variable>
+            </Variable>
+            <Variable Name="bDialogDetail" />
+            <Variable Name="bDialogTrend" />
+          </Variable>
+        </Variable>
+        <Variable Name="Popup">
+          <Variable Name="Status">
+            <Variable Name="bOpened" />
+            <Variable Name="bClosed" />
+          </Variable>
+          <Variable Name="Cmd">
+            <Variable Name="bClose" />
+          </Variable>
+        </Variable>
+        <Variable Name="bTestMode" />
+      </GlobalVariables>
+      <Task Name="HmiTrend">
+        <Variable Name="RealTimeDropBox" AutomaticEnable="True" />
+        <Variable Name="RealTimeDropBox1" AutomaticEnable="True" />
+        <Variable Name="RealTimeListBox" AutomaticEnable="True" />
+        <Variable Name="strHardware" />
+        <Variable Name="strSession" />
+        <Variable Name="strFileName" />
+        <Variable Name="VisuTrend">
+          <Variable Name="Input">
+            <Variable Name="mTrendCheck_MIN" />
+            <Variable Name="mTrendCheck_HOUR" />
+            <Variable Name="mTrendCheck_DAY" />
+            <Variable Name="bApply" />
+          </Variable>
+          <Variable Name="Output">
+            <Variable Name="mTrendCheck_MIN" />
+            <Variable Name="mTrendCheck_HOUR" />
+            <Variable Name="mTrendCheck_DAY" />
+            <Variable Name="rTrendValue_Temp" EnableArrayElements="True" />
+            <Variable Name="rTrendValue_Press" EnableArrayElements="True" />
+            <Variable Name="mTrendPeriod" />
+            <Variable Name="mTrendCheck" EnableArrayElements="True" />
+            <Variable Name="mTrendRuntime" EnableArrayElements="True" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="Interface" />
+      <Task Name="HmiDetail">
+        <Variable Name="strFileName" />
+        <Variable Name="VisuDetail">
+          <Variable Name="Output">
+            <Variable Name="rTrendValue_Temp" EnableArrayElements="True" />
+            <Variable Name="rTrendValue_Press" EnableArrayElements="True" />
+            <Variable Name="bAlarm_Sensor" EnableArrayElements="True" />
+            <Variable Name="bAlarm" EnableArrayElements="True" />
+            <Variable Name="bAlarm_1st" EnableArrayElements="True" />
+            <Variable Name="bAlarm_2nd" EnableArrayElements="True" />
+            <Variable Name="bAlarm_High" EnableArrayElements="True" />
+            <Variable Name="bAlarm_Rising" EnableArrayElements="True" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="HmiAlarm">
+        <Variable Name="bAcknowledgeAll" />
+        <Variable Name="strFiltering_Rising" />
+        <Variable Name="strFiltering_System" />
+      </Task>
+      <Task Name="HmiSetup">
+        <Variable Name="strFileName" />
+      </Task>
+      <Task Name="Test" />
+      <Task Name="HmiHistory">
+        <Variable Name="VisuTrend">
+          <Variable Name="Output">
+            <Variable Name="rTrendValue_TempR" />
+            <Variable Name="rTrendValue_TempS" />
+            <Variable Name="rTrendValue_TempT" />
+            <Variable Name="rTrendValue_PressR" />
+            <Variable Name="rTrendValue_PressS" />
+            <Variable Name="rTrendValue_PressT" />
+          </Variable>
+        </Variable>
+        <Variable Name="Trend_TimeEarly" />
+        <Variable Name="Trend_TimeLate" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

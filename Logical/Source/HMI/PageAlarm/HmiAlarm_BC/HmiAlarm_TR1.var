@@ -1,0 +1,43 @@
+(*
+FBK*)
+VAR
+	FB_MpAlarmXCore : MpAlarmXCore;
+	FB_MpAlarmXHistory : MpAlarmXHistory;
+	FB_TON_GDM : ARRAY[1..10,1..3] OF TON;
+	FB_TON_GDV : ARRAY[1..10,1..3] OF TON;
+	FB_TON_GD : ARRAY[1..10,1..3] OF TON;
+END_VAR
+(*
+Variable*)
+VAR
+	i : INT;
+	j : INT;
+	k : INT;
+END_VAR
+(*
+Alarm : GDM*)
+VAR
+	strBCGDM_High : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDM_2nd : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDM_1st : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDM_Rising : ARRAY[1..10,1..3] OF STRING[50];
+END_VAR
+(*
+Alarm : GD*)
+VAR
+	strBCGD_High : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGD_2nd : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGD_1st : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGD_Rising : ARRAY[1..10,1..3] OF STRING[50];
+END_VAR
+(*
+Alarm : GDV*)
+VAR
+	strBCGDV_High : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDV_2nd : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDV_1st : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDV_Rising : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDM_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGD_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+	strBCGDV_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+END_VAR

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Simple">datamod1</Object>
+    <Object Type="DataObject" Language="Simple">datamod2</Object>
+    <Object Type="DataObject" Language="Simple">datamod3</Object>
+    <Object Type="DataObject" Language="Simple">datamod4</Object>
+    <Object Type="DataObject" Language="Simple">datamod5</Object>
+    <Object Type="DataObject" Language="Simple">datamod6</Object>
+    <Object Type="DataObject" Language="Simple">datamod7</Object>
+    <Object Type="DataObject" Language="Simple">datamod8</Object>
+    <Object Type="DataObject" Language="Simple">datamod9</Object>
+    <Object Type="DataObject" Language="Simple">datamod10</Object>
+    <Object Type="DataObject" Language="Simple">datamod11</Object>
+    <Object Type="DataObject" Language="Simple">datamod12</Object>
+    <Object Type="DataObject" Language="Simple">datamod13</Object>
+    <Object Type="DataObject" Language="Simple">datamod14</Object>
+    <Object Type="DataObject" Language="Simple">datamod15</Object>
+    <Object Type="DataObject" Language="Simple">datamod16</Object>
+    <Object Type="DataObject" Language="Simple">datamod17</Object>
+    <Object Type="DataObject" Language="Simple">datamod18</Object>
+    <Object Type="DataObject" Language="Simple">datamod19</Object>
+    <Object Type="DataObject" Language="Simple">datamod20</Object>
+    <Object Type="DataObject" Language="Simple">datamod21</Object>
+    <Object Type="DataObject" Language="Simple">datamod22</Object>
+    <Object Type="DataObject" Language="Simple">datamod23</Object>
+  </Objects>
+</Package>

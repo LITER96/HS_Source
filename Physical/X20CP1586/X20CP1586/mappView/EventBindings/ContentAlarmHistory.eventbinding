@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentAlarmHistory_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="ContentAlarmHistory.Label1.Click">
+      <Source xsi:type="widgets.brease.Label.Event" contentRefId="ContentAlarmHistory" widgetRefId="Label1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Navigate" pageId="AlarmPage" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentAlarmHistory.Button6.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentAlarmHistory" widgetRefId="Button6" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.AlarmHistory.Action" contentRefId="ContentAlarmHistory" widgetRefId="AlarmHistory1">
+            <Method xsi:type="widgets.brease.AlarmHistory.Action.OpenConfiguration" type="Sorting" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentAlarmHistory.Button7.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentAlarmHistory" widgetRefId="Button7" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.AlarmHistory.Action" contentRefId="ContentAlarmHistory" widgetRefId="AlarmHistory1">
+            <Method xsi:type="widgets.brease.AlarmHistory.Action.OpenConfiguration" type="Filtering" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

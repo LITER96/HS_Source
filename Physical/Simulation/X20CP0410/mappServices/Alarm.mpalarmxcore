@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="TempHigh" />
+        <Property ID="Message" Value="High" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="GDM1_R PressureLow" />
+        <Property ID="Message" Value="GDM1 R Pressure Low" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="GDM1_R PressureLowLow" />
+        <Property ID="Message" Value="GDM1 R Pressure LowLow" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="GDM1_R PressureHigh" />
+        <Property ID="Message" Value="GDM1 R Pressure High" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="GDM1_S PressureLow" />
+        <Property ID="Message" Value="GDM1 S Pressure Low" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="GDM1_S PressureLowLow" />
+        <Property ID="Message" Value="GDM1 S Pressure LowLow" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="GDM1_S PressureHigh" />
+        <Property ID="Message" Value="GDM1 S Pressure High" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="GDM1_T PressureLow" />
+        <Property ID="Message" Value="GDM1 T Pressure Low" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="GDM1_T PressureLowLow" />
+        <Property ID="Message" Value="GDM1 T Pressure LowLow" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[9]">
+        <Property ID="Name" Value="GDM1_T PressureHigh" />
+        <Property ID="Message" Value="GDM1 T Pressure High" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Snippets">
+      <Group ID="[0]">
+        <Property ID="Key" Value="ss" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::gMbGDM[1].Input.rPressure[1]" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

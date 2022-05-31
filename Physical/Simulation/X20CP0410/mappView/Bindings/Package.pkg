@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">HeaderContent.binding</Object>
+    <Object Type="File">BottomContent.binding</Object>
+    <Object Type="File">OverviewPageContent.binding</Object>
+    <Object Type="File">AlarmPageContent.binding</Object>
+    <Object Type="File">TrendPageContent.binding</Object>
+    <Object Type="File">DetailPageContent.binding</Object>
+  </Objects>
+</Package>

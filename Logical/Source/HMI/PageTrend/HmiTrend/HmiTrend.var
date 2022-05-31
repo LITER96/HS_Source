@@ -1,0 +1,20 @@
+(*Visualization*)
+VAR
+	VisuTrend : VisuTrend_typ;
+	RealTimeDropBox : DropDown_typ;
+	RealTimeDropBox1 : DropDown_typ;
+	RealTimeListBox : ListBox_typ;
+END_VAR
+VAR CONSTANT
+	MAX_TREND_NUM : INT := 8;
+END_VAR
+VAR
+	i : INT;
+	strSession : STRING[80];
+	strHardware : STRING[80];
+	strFileName : STRING[80];
+	strOldFileName : STRING[80];
+	nFindValue : INT;
+	nOldSelectedList : UINT;
+	nSelectedList : UINT;
+END_VAR

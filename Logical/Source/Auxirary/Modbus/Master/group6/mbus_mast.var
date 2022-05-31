@@ -1,0 +1,12 @@
+(*Enum*)
+VAR
+	MbMasterState : MbMasterState_enum;
+END_VAR
+(*Type*)
+VAR
+	Master : Master_typ; (*Variable with the Master_typ struct*)
+END_VAR
+(*Variable*)
+VAR
+	i : INT;
+END_VAR

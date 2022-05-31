@@ -1,0 +1,11 @@
+(*Insert your comment here.*)
+VAR
+	VisuDetail : VisuDetail_typ;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	strSession : STRING[80];
+	strHardware : STRING[80];
+	strFileName : STRING[80];
+	nFindValue : INT;
+END_VAR

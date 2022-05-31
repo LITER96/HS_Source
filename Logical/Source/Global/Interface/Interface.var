@@ -1,0 +1,8 @@
+VAR
+	TR1 : Module_typ;
+	ZAER : Module_typ;
+	TR2 : Module_typ;
+	BC : Module_typ;
+	CTM : Module_typ;
+	TR3 : Module_typ;
+END_VAR

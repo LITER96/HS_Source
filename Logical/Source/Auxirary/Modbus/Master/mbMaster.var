@@ -1,0 +1,4 @@
+(*Variable*)
+VAR
+	gModbusGroup : ARRAY[1..23] OF gModbusGroup_typ;
+END_VAR

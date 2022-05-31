@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentDetail_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput15" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput14" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput28" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput27" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput26" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput21" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput25" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput24" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput20" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput19" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput23" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput18" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput17" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput16" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput22" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput29" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput30" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput31" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput32" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput66" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput67" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput63" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput65" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput61" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput68" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput69" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput71" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput70" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput83" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput78" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput77" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput76" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput75" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput72" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput74" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput73" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput79" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput86" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput87" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput84" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput80" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput85" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput81" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput144" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput139" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput138" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput148" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput143" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput141" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput140" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput147" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput146" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput145" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput137" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput136" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput135" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput133" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput132" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput131" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput130" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput121" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput127" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput126" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput125" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput134" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput129" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput128" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput149" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput142" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput181" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput183" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput192" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput194" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput193" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput191" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput190" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput189" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput188" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput187" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput186" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput185" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput195" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput203" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput198" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput197" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput199" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput200" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput204" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput205" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput201" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput206" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput207" attribute="value" />
+</Binding>
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput208" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput212" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput211" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput210" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput209" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput202" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput263" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput251" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput245" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput250" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput257" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput256" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput253" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput247" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput249" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput254" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput248" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput243" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput246" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput252" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput255" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput265" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput267" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput261" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput266" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput268" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput269" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput270" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput271" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput272" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput308" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput307" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput306" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput305" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput303" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput301" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput324" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput320" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput325" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput373" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput365" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput370" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput367" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput372" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput369" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput361" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput363" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput311" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput316" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput319" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput313" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput323" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput315" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput318" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput312" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput317" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput314" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput309" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput368" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput374" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput371" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput366" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput386" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput380" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput383" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput375" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput384" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput378" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput387" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput381" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput385" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput379" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput377" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput388" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput389" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput421" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput427" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput432" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput429" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput437" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput444" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput440" attribute="value" />
+</Binding>
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput448" attribute="value" />
+</Binding>
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput449" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput450" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput451" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput452" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput486" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput483" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput487" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput488" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput485" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput123" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput264" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput260" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput259" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput258" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput241" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput196" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput435" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput434" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput433" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput431" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput430" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput428" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput426" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput425" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput423" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput382" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput376" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput310" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput262" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput447" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput446" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput441" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput445" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput439" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput443" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput438" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput436" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput40" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput38" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput42" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput33" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput35" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput37" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput41" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput39" attribute="value" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput34" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput36" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput481" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[2].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput442" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput53" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput55" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput49" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput44" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput57" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput46" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput50" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput59" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput52" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput54" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput48" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput43" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput45" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput56" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput60" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput47" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[2].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput51" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput58" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput94" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput96" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput93" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput95" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput64" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput97" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput100" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput99" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput162" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput154" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput160" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput157" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput158" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput155" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput161" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput159" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput122" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput156" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput153" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput168" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput165" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput173" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput174" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput171" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput169" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput166" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput163" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput172" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput167" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput170" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput177" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput175" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput182" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput222" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput221" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput220" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput219" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput218" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput217" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput216" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput215" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput214" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput213" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput223" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput280" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput279" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput276" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput242" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput281" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput273" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput274" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput277" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput282" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput278" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput275" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput289" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput286" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput283" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput292" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput287" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput290" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput288" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput285" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput293" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput294" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput291" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput349" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput346" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput343" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput344" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput341" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput350" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput339" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput347" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput348" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput345" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput342" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[16].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput351" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput337" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput340" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput304" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput335" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput336" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput333" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput334" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput297" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput298" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput295" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput299" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput300" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput414" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput411" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput409" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput417" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput406" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput403" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput415" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput412" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput410" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput407" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput408" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput405" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput413" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput402" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput396" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput393" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput394" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput400" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput397" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput398" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput401" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput395" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput362" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput399" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput424" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[12].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput462" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[11].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput461" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[10].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput460" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[9].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput459" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[8].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput458" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[7].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput457" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[6].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput456" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[4].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput454" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[3].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput453" attribute="value" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput467" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput470" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput468" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput465" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput473" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput474" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput471" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput469" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput466" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput463" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput464" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[21].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput472" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput479" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput477" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput478" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput475" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput480" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput484" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput516" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput513" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput514" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput515" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput109" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput112" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput113" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput114" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput111" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput102" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput101" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput108" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput107" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput106" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput105" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput104" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput103" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[4].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput98" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[3].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput62" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[5].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput110" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[6].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput124" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[9].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput184" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[8].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput176" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[7].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput164" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[12].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput234" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[11].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput233" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[10].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput232" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[9].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput231" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[8].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput230" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput229" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput228" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput227" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput226" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput225" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[10].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput224" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[18].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput404" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[17].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput364" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[15].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput338" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput302" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[14].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput296" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[13].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput284" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[12].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput244" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[5].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput239" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput236" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[3].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput237" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[6].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput240" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[4].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput238" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[11].Group[1].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput235" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[19].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput416" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[5].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput455" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[20].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput422" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[2].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput476" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[22].Group[7].rTemp" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput482" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gModbusGroup[1].Group[1].rPress" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentDetail" widgetRefId="NumericOutput1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -1,0 +1,56 @@
+VAR
+	bTestMode : BOOL;
+END_VAR
+(*Constant*)
+VAR CONSTANT
+	VC_SHOW : USINT := 1;
+	VC_HIDE : USINT := 0;
+END_VAR
+(*
+LED Color*)
+VAR CONSTANT
+	LED_RED : USINT := 2;
+	LED_ORANGE : USINT := 1;
+	LED_BLACK : USINT := 0;
+END_VAR
+(*
+Alarm Style*)
+VAR CONSTANT
+	STYLE_NORMAL : STRING[80] := 'AlarmNormal';
+	STYLE_ACTIVE_GRAY : STRING[80] := 'AlarmActiveGray';
+	STYLE_ACTIVE_YELLOW : STRING[80] := 'AlarmActiveYellow';
+END_VAR
+(*
+Hardware Section*)
+VAR CONSTANT
+	SELECT_TR1 : USINT := 0;
+	SELECT_ZAER : USINT := 1;
+	SELECT_TR2 : USINT := 2;
+	SELECT_BC : USINT := 3;
+	SELECT_CTM : USINT := 4;
+	SELECT_TR3 : USINT := 5;
+END_VAR
+(*
+Hardware Type*)
+VAR CONSTANT
+	SELECT_GDM : USINT := 0;
+	SELECT_GD : USINT := 1;
+	SELECT_GDV : USINT := 2;
+END_VAR
+(*
+Unit Pressure*)
+VAR CONSTANT
+	SELECT_bar : USINT := 0;
+	SELECT_MPa : USINT := 1;
+	SELECT_Pa : USINT := 2;
+	SELECT_kPa : USINT := 5;
+	SELECT_psi : USINT := 3;
+	SELECT_Ncm2 : USINT := 4;
+END_VAR
+(*
+Unit Temperature*)
+VAR CONSTANT
+	SELECT_C : USINT := 0;
+	SELECT_K : USINT := 1;
+	SELECT_F : USINT := 2;
+END_VAR

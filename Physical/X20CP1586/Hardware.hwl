@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="X20CP1586.Hardware.hw" LastWriteTime="05/30/2022 17:47:26" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BM11" Type="X20BM11" X="-1681" Y="-1113" />
+    <Module Name="X20DIF371" Type="X20DIF371" X="-1681" Y="-1113" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="-1681" Y="-1086" />
+    <Module Name="X20BM11a" Type="X20BM11" X="-1668" Y="-1113" />
+    <Module Name="X20DOF322" Type="X20DOF322" X="-1668" Y="-1113" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="-1668" Y="-1086" />
+    <Module Name="X20BM11b" Type="X20BM11" X="-1655" Y="-1113" />
+    <Module Name="X20CS1030" Type="X20CS1030" X="-1655" Y="-1113" />
+    <Module Name="X20TB12" Type="X20TB12" X="-1655" Y="-1086" />
+    <Module Name="X20BM11c" Type="X20BM11" X="-1642" Y="-1113" />
+    <Module Name="X20CS1030a" Type="X20CS1030" X="-1642" Y="-1113" />
+    <Module Name="X20TB12a" Type="X20TB12" X="-1642" Y="-1086" />
+    <Module Name="X20BM11d" Type="X20BM11" X="-1629" Y="-1113" />
+    <Module Name="X20CS1030b" Type="X20CS1030" X="-1629" Y="-1113" />
+    <Module Name="X20TB12b" Type="X20TB12" X="-1629" Y="-1086" />
+    <Module Name="X20BM11e" Type="X20BM11" X="-1616" Y="-1113" />
+    <Module Name="X20CS1030c" Type="X20CS1030" X="-1616" Y="-1113" />
+    <Module Name="X20TB12c" Type="X20TB12" X="-1616" Y="-1086" />
+    <Module Name="X20BM11f" Type="X20BM11" X="-1603" Y="-1113" />
+    <Module Name="X20CS1030d" Type="X20CS1030" X="-1603" Y="-1113" />
+    <Module Name="X20TB12d" Type="X20TB12" X="-1603" Y="-1086" />
+    <Module Name="X20BM11g" Type="X20BM11" X="-1590" Y="-1113" />
+    <Module Name="X20CS1030e" Type="X20CS1030" X="-1590" Y="-1113" />
+    <Module Name="X20TB12e" Type="X20TB12" X="-1590" Y="-1086" />
+    <Module Name="X20BM11h" Type="X20BM11" X="-1577" Y="-1113" />
+    <Module Name="X20CS1030f" Type="X20CS1030" X="-1577" Y="-1113" />
+    <Module Name="X20TB12f" Type="X20TB12" X="-1577" Y="-1086" />
+    <Module Name="X20BM11i" Type="X20BM11" X="-1564" Y="-1113" />
+    <Module Name="X20CS1030g" Type="X20CS1030" X="-1564" Y="-1113" />
+    <Module Name="X20TB12g" Type="X20TB12" X="-1564" Y="-1086" />
+    <Module Name="X20BM11j" Type="X20BM11" X="-1551" Y="-1113" />
+    <Module Name="X20CS1030h" Type="X20CS1030" X="-1551" Y="-1113" />
+    <Module Name="X20TB12h" Type="X20TB12" X="-1551" Y="-1086" />
+    <Module Name="X20BM11k" Type="X20BM11" X="-1538" Y="-1113" />
+    <Module Name="X20CS1030i" Type="X20CS1030" X="-1538" Y="-1113" />
+    <Module Name="X20TB12i" Type="X20TB12" X="-1538" Y="-1086" />
+    <Module Name="X20BM11l" Type="X20BM11" X="-1525" Y="-1113" />
+    <Module Name="X20CS1030j" Type="X20CS1030" X="-1525" Y="-1113" />
+    <Module Name="X20TB12j" Type="X20TB12" X="-1525" Y="-1086" />
+    <Module Name="X20BM11m" Type="X20BM11" X="-1512" Y="-1113" />
+    <Module Name="X20CS1030k" Type="X20CS1030" X="-1512" Y="-1113" />
+    <Module Name="X20TB12k" Type="X20TB12" X="-1512" Y="-1086" />
+    <Module Name="X20BM11n" Type="X20BM11" X="-1499" Y="-1113" />
+    <Module Name="X20CS1030l" Type="X20CS1030" X="-1499" Y="-1113" />
+    <Module Name="X20TB12l" Type="X20TB12" X="-1499" Y="-1086" />
+    <Module Name="X20BM11o" Type="X20BM11" X="-1486" Y="-1113" />
+    <Module Name="X20CS1030m" Type="X20CS1030" X="-1486" Y="-1113" />
+    <Module Name="X20TB12m" Type="X20TB12" X="-1486" Y="-1086" />
+    <Module Name="X20BM11p" Type="X20BM11" X="-1473" Y="-1113" />
+    <Module Name="X20CS1030n" Type="X20CS1030" X="-1473" Y="-1113" />
+    <Module Name="X20TB12n" Type="X20TB12" X="-1473" Y="-1086" />
+    <Module Name="X20BM11q" Type="X20BM11" X="-1460" Y="-1113" />
+    <Module Name="X20CS1030o" Type="X20CS1030" X="-1460" Y="-1113" />
+    <Module Name="X20TB12o" Type="X20TB12" X="-1460" Y="-1086" />
+    <Module Name="X20BM11r" Type="X20BM11" X="-1447" Y="-1113" />
+    <Module Name="X20CS1030p" Type="X20CS1030" X="-1447" Y="-1113" />
+    <Module Name="X20TB12p" Type="X20TB12" X="-1447" Y="-1086" />
+    <Module Name="X20BM11s" Type="X20BM11" X="-1434" Y="-1113" />
+    <Module Name="X20CS1030q" Type="X20CS1030" X="-1434" Y="-1113" />
+    <Module Name="X20TB12q" Type="X20TB12" X="-1434" Y="-1086" />
+    <Module Name="X20BM11t" Type="X20BM11" X="-1421" Y="-1113" />
+    <Module Name="X20CS1030r" Type="X20CS1030" X="-1421" Y="-1113" />
+    <Module Name="X20TB12r" Type="X20TB12" X="-1421" Y="-1086" />
+    <Module Name="X20BM11u" Type="X20BM11" X="-1408" Y="-1113" />
+    <Module Name="X20CS1030s" Type="X20CS1030" X="-1408" Y="-1113" />
+    <Module Name="X20TB12s" Type="X20TB12" X="-1408" Y="-1086" />
+    <Module Name="X20BM11v" Type="X20BM11" X="-1395" Y="-1113" />
+    <Module Name="X20CS1030t" Type="X20CS1030" X="-1395" Y="-1113" />
+    <Module Name="X20TB12t" Type="X20TB12" X="-1395" Y="-1086" />
+    <Module Name="X20BM11w" Type="X20BM11" X="-1382" Y="-1113" />
+    <Module Name="X20CS1030u" Type="X20CS1030" X="-1382" Y="-1113" />
+    <Module Name="X20TB12u" Type="X20TB12" X="-1382" Y="-1086" />
+    <Module Name="X20BM11x" Type="X20BM11" X="-1369" Y="-1113" />
+    <Module Name="X20CS1030v" Type="X20CS1030" X="-1369" Y="-1113" />
+    <Module Name="X20TB12v" Type="X20TB12" X="-1369" Y="-1086" />
+    <Module Name="X20CP1586" Type="X20CP1586" X="-1831" Y="-1113" />
+    <Module Name="6PFT50.215C-10B" Type="6PFT50.215C-10B" X="-1841.97388" Y="-1504.624" />
+  </Modules>
+  <Links>
+    <Link From="6PFT50.215C-10B" To="X20CP1586" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="-1655.07385" Y="-1272.42407" />
+      <Point X="-1655.07385" Y="-1272.42407" />
+      <Point X="-1655.07385" Y="-1267.42407" />
+      <Point X="-1655.07385" Y="-1255" />
+      <Point X="-1845" Y="-1255" />
+      <Point X="-1845" Y="-1005" />
+      <Point X="-1799" Y="-1005" />
+      <Point X="-1799" Y="-1012" />
+      <Point X="-1799" Y="-1026" />
+      <Point X="-1799" Y="-1026" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

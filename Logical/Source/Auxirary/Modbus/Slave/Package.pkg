@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">mbSlave.typ</Object>
+    <Object Type="File">mbSlave.var</Object>
+    <Object Type="Program" Language="IEC">MbTR1</Object>
+    <Object Type="Program" Language="IEC">MbZAER</Object>
+    <Object Type="Program" Language="IEC">MbTR2</Object>
+    <Object Type="Program" Language="IEC">MbBC</Object>
+    <Object Type="Program" Language="IEC">MbCTM</Object>
+    <Object Type="Program" Language="IEC">MbTR3</Object>
+  </Objects>
+</Package>

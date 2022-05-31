@@ -1,0 +1,14 @@
+
+Hyosung GDMS 
+
+1.	Hardware
+-	X20CP1586
+-	X20DIF371 (1EA)
+-	X20DOF322 (1EA)
+-	X20CS1030 (23EA)
+-	FT50 : 6PFT50.215C-10B (1EA) // Touch Screen 21Inch
+
+2.	Software
+-	Mappview
+-	Overview Page, Sub Page, Alarm Page, Trend page, Testmode Page 
+-	IP address 192.168.0.100 (CPU) , 192.168.0.101 (FT50)

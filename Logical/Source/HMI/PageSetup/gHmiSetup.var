@@ -1,0 +1,8 @@
+VAR RETAIN
+	gVisuSetup : gVisuSetpup_typ;
+END_VAR
+VAR
+	SetupDropBox : DropDown_typ;
+	SetupDropBox1 : DropDown_typ;
+	SetupListBox : ListBox_typ;
+END_VAR

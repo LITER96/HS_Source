@@ -1,0 +1,46 @@
+(*
+Common*)
+VAR
+	i : INT;
+	j : INT;
+END_VAR
+(*
+
+ACTION : Shift Value*)
+VAR
+	A : UINT;
+	B : UINT;
+	Result : UDINT;
+	Result2 : REAL;
+	Data1 : UINT;
+	Data2 : UINT;
+	RealValue : REAL;
+END_VAR
+(*
+
+ACTION : Rising Alarm*)
+VAR
+	FB_TON : TON;
+	bEnable : BOOL;
+	tTime : TIME;
+	DiffValue : REAL;
+	NewValue : REAL;
+	OldValue : REAL;
+END_VAR
+(*
+
+ACTION : SetValue*)
+VAR
+	bTestValue : BOOL;
+	rSetValue : REAL;
+	nTest : INT;
+END_VAR
+(*
+ACTION : AlarmPopup*)
+VAR
+	Alarm1 : ARRAY[0..9] OF Alarm1_typ;
+	Popup1 : Popup_typ;
+END_VAR
+VAR RETAIN
+	b : BOOL;
+END_VAR

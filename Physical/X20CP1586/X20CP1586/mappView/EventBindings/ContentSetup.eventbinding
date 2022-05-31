@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ContentSetup_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="ContentSetup.Button1.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSetup" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="Edit?" header="Warning window" icon="Warning" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result = 1">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVisuSetup.Input.bEnable">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                </Target>
+              </Action>
+            </ResultHandler>
+            <ResultHandler condition="result = 2">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVisuSetup.Input.bEnable">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentSetup.Button3.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSetup" widgetRefId="Button3" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="Are you sure?" header="Warning window" icon="Warning" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result = 1">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVisuSetup.Input.bApply">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                </Target>
+              </Action>
+            </ResultHandler>
+            <ResultHandler condition="result = 2">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVisuSetup.Input.bApply">
+                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ContentSetup.Button2.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSetup" widgetRefId="Button2" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVisuSetup.Input.bEnable">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Press[1]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput1">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput1">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_8">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Press[2]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput4">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput4">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Press[3]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput7">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput7">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Temp[1]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput2">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput2">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_11">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Temp[2]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput5">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput5">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Temp[3]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput8">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput8">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_13">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Rising[1]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput3">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput3">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_14">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Rising[2]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput6">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput6">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_15">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVisuSetup.Output.CurrentValue.nTextColor_Rising[3]" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput9">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Normal" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.NumericOutput.Action" contentRefId="ContentSetup" widgetRefId="NumericOutput9">
+            <Method xsi:type="widgets.brease.NumericOutput.Action.SetStyle" value="Error" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

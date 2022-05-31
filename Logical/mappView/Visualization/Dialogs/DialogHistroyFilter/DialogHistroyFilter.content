@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DialogHistoryFilter" height="980" width="480" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="267" left="30" width="165" zIndex="0" text="Section" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="314" left="30" width="420" height="40" zIndex="1" maxVisibleEntries="2" cornerRadius="4px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 100%)" disabledBackGroundGradient="" borderStyle="solid" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" textColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listBackGroundGradient="" listSeparatorColor="rgba(255, 255, 255, 0)" listBorderWidth="1px" textAlign="left" />
+    <Widget xsi:type="widgets.brease.ListBox" id="ListBox1" top="558" left="30" width="420" height="340" zIndex="2" borderWidth="1px" cornerRadius="4px" borderColor="rgba(40, 40, 40, 1)" backColor="rgba(255, 255, 255, 1)" listSeparatorColor="rgba(0, 0, 0, 0)" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox3" top="436" left="30" width="420" height="40" zIndex="3" maxVisibleEntries="2" cornerRadius="4px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, #FFFFFF 0%,#FFFFFF 100%)" disabledBackGroundGradient="" borderStyle="solid" borderWidth="1px" borderColor="rgba(40, 40, 40, 1)" textColor="rgba(40, 40, 40, 1)" showOpenIndicator="true" listBackColor="rgba(240, 240, 240, 1)" listBackGroundGradient="" listSeparatorColor="rgba(255, 255, 255, 0)" listBorderWidth="1px" textAlign="left" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="389" left="30" width="160" zIndex="4" text="Hardware Type" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="512" left="30" width="160" zIndex="5" text="Hardware List" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="15" left="30" width="165" zIndex="6" text="Time" fontSize="22px" bold="true" padding="0px" />
+    <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="98" left="30" width="420" height="40" zIndex="7" borderWidth="1px 5px 1px 1px" cornerRadius="4px" borderColor="rgba(40, 40, 40, 1)" shadow="4px 1px 3px rgba(255, 113, 0, 0)" />
+    <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput2" top="192" left="30" width="420" height="40" zIndex="8" borderWidth="1px 5px 1px 1px" cornerRadius="4px" borderColor="rgba(40, 40, 40, 1)" shadow="4px 1px 3px rgba(255, 113, 0, 0)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="61" left="30" width="165" height="20" zIndex="9" text="Start Time" textColor="rgba(111, 111, 111, 1)" textAlign="left" fontSize="18px" bold="false" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="155" left="30" width="165" height="20" zIndex="10" text="End Time" textColor="rgba(111, 111, 111, 1)" textAlign="left" fontSize="18px" bold="false" padding="0px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="493" left="30" width="420" height="2" zIndex="11" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="371" left="30" width="420" height="2" zIndex="12" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="249" left="30" width="420" height="2" zIndex="13" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="925" left="305" width="145" height="48" zIndex="14" text="APPLY" borderWidth="0px" cornerRadius="20px" backColor="rgba(224, 224, 224, 1)" backGroundGradient="" disabledBackGroundGradient="" mouseDownBackGroundGradient="" fontSize="16px" bold="true" shadow="4px 4px 14px rgba(62, 79, 92, 0)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="915" left="0" width="480" height="2" zIndex="15" borderWidth="0px" backColor="rgba(245, 245, 245, 1)" />
+  </Widgets>
+</Content>

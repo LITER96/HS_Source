@@ -1,0 +1,16 @@
+(*Enum*)
+VAR
+	Step_Devlink : Devlink_Enum;
+END_VAR
+(*FUB*)
+VAR
+	FB_DevLink1 : DevLink;
+	FB_DevLink2 : DevLink;
+	FB_DirCreate : ARRAY[1..6] OF DirCreate;
+END_VAR
+(*Variable*)
+VAR
+	i : INT;
+	strDirName : ARRAY[1..6] OF STRING[10];
+	bSimulmode : BOOL;
+END_VAR

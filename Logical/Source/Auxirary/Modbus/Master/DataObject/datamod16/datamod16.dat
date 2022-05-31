@@ -1,0 +1,21 @@
+
+(* Num16 CS1030 *)
+			
+"gModbusGroup[16].Group[1].bEvent        ", 03, $01,  "gModbusGroup[16].Group[1].Value           ", 0000, 0017		;GD5    R
+"gModbusGroup[16].Group[2].bEvent        ", 03, $02,  "gModbusGroup[16].Group[2].Value           ", 0000, 0017		;GD5    S
+"gModbusGroup[16].Group[3].bEvent        ", 03, $03,  "gModbusGroup[16].Group[3].Value           ", 0000, 0017		;GD5    T
+	
+
+																														  
+;----------------------------------------------------------------------------------------------------------------------------
+;"LibDRVmbus.EventPV4            ", 16, $01, "LibDRVmbus.LocalPV4            ", 0000, 0003
+;"LibDRVmbus.EventPV3            ", 03, $01, "LibDRVmbus.LocalPV3            ", 0000, 0003
+; \_____________________________/	|    |    \_____________________________/    |      |
+;			 	 |					|    |				  	 |				     |      |
+;		   31 Characters		    |    |			   31 Characters  		     |      |_Number of coils or registers
+;			 						|    |				   						 |_Offset of the Modbus Variables
+;									|    |
+;									|    |_Target Address of the slave station
+;			 						|
+;			 						|_ Modbus function
+

@@ -1,0 +1,14 @@
+(*Visualization*)
+VAR
+	VisuTrend : VisuTrend_typ;
+	i : INT;
+	MAX_TREND_NUM : UINT;
+END_VAR
+VAR CONSTANT
+	MAX_TREND : INT := 1800;
+END_VAR
+(*Count*)
+VAR
+	Trend_TimeLate : DATE_AND_TIME;
+	Trend_TimeEarly : DATE_AND_TIME;
+END_VAR

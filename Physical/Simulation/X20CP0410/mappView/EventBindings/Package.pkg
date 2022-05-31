@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Initialization.eventbinding</Object>
+    <Object Type="File">HeaderContent.eventbinding</Object>
+    <Object Type="File">BottomContent.eventbinding</Object>
+    <Object Type="File">OverviewPageContent.eventbinding</Object>
+    <Object Type="File">AlarmPageContent.eventbinding</Object>
+    <Object Type="File">TrendPageContent.eventbinding</Object>
+    <Object Type="File">ScreenSaverContent.eventbinding</Object>
+  </Objects>
+</Package>

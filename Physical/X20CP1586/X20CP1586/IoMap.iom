@@ -1,0 +1,4 @@
+VAR_CONFIG
+	::gVisuAlarm.Input.bBatteryAlarm AT %IB."X20CP1586".BatteryStatusCPU;
+	::gVisuAlarm.Input.bSupplyVoltageAlarm AT %IX."X20CP1586".StatusInput01;
+END_VAR

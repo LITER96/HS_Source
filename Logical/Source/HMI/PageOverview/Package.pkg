@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">gHmiOverview.typ</Object>
+    <Object Type="File">gHmiOverview.var</Object>
+    <Object Type="Program" Language="IEC">HmiOverview</Object>
+    <Object Type="Program" Language="IEC">HmiDetail</Object>
+    <Object Type="Program" Language="IEC">HmiTrend</Object>
+  </Objects>
+</Package>

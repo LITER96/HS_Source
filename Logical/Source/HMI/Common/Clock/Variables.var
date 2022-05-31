@@ -1,0 +1,15 @@
+(*FUB*)
+VAR
+	FB_DTStructureSetTime : ARRAY[0..1] OF DTStructureSetTime;
+	FB_ConvTime : ARRAY[0..1] OF LocalDTStructure_TO_UtcDT;
+END_VAR
+(*Structure*)
+VAR
+	ST_DTStructure : DTStructure;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	EndTime : DATE_AND_TIME;
+	StarTime : DATE_AND_TIME;
+	i : USINT;
+END_VAR

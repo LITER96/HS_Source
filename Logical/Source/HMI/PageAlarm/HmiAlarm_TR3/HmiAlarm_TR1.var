@@ -1,0 +1,34 @@
+(*
+FBK*)
+VAR
+	FB_MpAlarmXCore : MpAlarmXCore;
+	FB_MpAlarmXHistory : MpAlarmXHistory;
+	FB_TON_GDM : ARRAY[1..10,1..3] OF TON;
+	FB_TON_GD : ARRAY[1..10,1..3] OF TON;
+END_VAR
+(*
+Variable*)
+VAR
+	i : INT;
+	j : INT;
+	k : INT;
+END_VAR
+(*
+Alarm : GDM*)
+VAR
+	strTR3GDM_High : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GDM_2nd : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GDM_1st : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GDM_Rising : ARRAY[1..10,1..3] OF STRING[50];
+END_VAR
+(*
+Alarm : GD*)
+VAR
+	strTR3GD_High : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GD_2nd : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GD_1st : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GD_Rising : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GDM_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GD_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+	strTR3GDV_Modbus : ARRAY[1..10,1..3] OF STRING[50];
+END_VAR

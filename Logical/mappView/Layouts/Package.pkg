@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package SubType="Layouts" PackageType="Layouts" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">CommonLayout.layout</Object>
+    <Object Type="File">TrendFilterLayout.layout</Object>
+    <Object Type="File">HistoryFilterLayout.layout</Object>
+    <Object Type="File">Detail.layout</Object>
+    <Object Type="File">Alarm.layout</Object>
+  </Objects>
+</Package>

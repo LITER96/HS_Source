@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="DialogTrendFilter" layoutRefId="TrendFilterLayout" cornerRadius="8px" headerBorderWidth="0px" textColor="rgba(36, 34, 51, 1)" bold="true" fontSize="24px" displayName="Filter" headerHeight="40px" borderWidth="0px" shadow="5px 5px 20px rgba(62, 79, 92, 0)">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="DialogTrendFilter" areaRefId="AreaMain" />
+  </Assignments>
+</ddef:Dialog>
